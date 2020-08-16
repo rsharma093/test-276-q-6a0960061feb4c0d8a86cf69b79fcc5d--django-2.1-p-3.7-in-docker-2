@@ -82,7 +82,7 @@ class AnalyzeLogFilesViewSet(viewsets.ViewSet):
             queue.put(thread_output)
             return
 
-        threads = len(files)//3 if len(files)//3 != 0 else 1
+        threads = 10
         output = []
         queues = []
         jobs = []
