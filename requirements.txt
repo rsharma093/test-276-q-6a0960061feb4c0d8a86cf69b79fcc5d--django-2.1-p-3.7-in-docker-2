@@ -1,2 +1,5 @@
 Django==2.1
 pytz==2019.2
+djangorestframework==3.11.1
+pandas==1.1.0
+numpy==1.19.1
